@@ -27,11 +27,16 @@ html {
     padding: 30px;
 }
 
-.outputbox {
+#outputbox {
     height: 50px;
     border: 2px solid black;
     width: 400px;
     background-color: #bccd95;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: large;
 }
 
 
