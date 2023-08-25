@@ -1,0 +1,67 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid black;
+    gap: 3px;
+    background-color: #3d4543;
+    color: #f9faf8;
+
+}
+
+.outline {
+    background-color: tan;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    padding: 30px;
+}
+
+.outputbox {
+    height: 50px;
+    border: 2px solid black;
+    width: 400px;
+    background-color: #bccd95;
+}
+
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #6f6f6f;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: large;
+}
+
+.opt {
+    background-color: #ff4561;
+    color: black;
+}
+
+.opd {
+    background-color: #6f6f6f;
+    color: white;
+}
+
+.eql {
+    background-color: #FF9933;
+}
