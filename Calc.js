@@ -43,6 +43,9 @@ function displayOP(value) {
         op1 = Operation(opt);
     } else if (value === 'C') {
         content.textContent = "";
+        op1 = undefined;
+        op2 = undefined;
+        opt = undefined;
     } else if (value === 'backspace') {
         const splitStr = content.textContent.split("");
         splitStr.pop();
